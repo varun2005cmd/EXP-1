@@ -91,6 +91,8 @@ Aim: Implementing the BITWISE operators like AND, NAND, XOR on 2 numbers
 
 Theory:
 •	It demonstrates bitwise operations, including AND, OR, NOT, and XOR, and prints the results. The final values of the variables are also printed. This program highlights basic C++ syntax and operations.¬¬¬
+Bitwise operators are used to perform operations on individual bits of integer data types. These operators are fundamental in low-level programming, enabling efficient manipulation of data at the bit level. In C++
+
 
 Output:
 
