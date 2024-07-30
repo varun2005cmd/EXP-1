@@ -92,4 +92,9 @@ Aim: Implementing the BITWISE operators like AND, NAND, XOR on 2 numbers
 Theory:
 •	It demonstrates bitwise operations, including AND, OR, NOT, and XOR, and prints the results. The final values of the variables are also printed. This program highlights basic C++ syntax and operations.¬¬¬
 
+Output:
+
+![image](https://github.com/user-attachments/assets/a97a2db3-4388-4ed4-b599-b5267f518507)
+
+
 
