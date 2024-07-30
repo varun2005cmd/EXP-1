@@ -30,6 +30,14 @@ Even or Odd
 EXPERIMENT 1-d
 Determining leap years
 
+Theory: A leap year is a year that is evenly divisible by 4 but not by 100, unless it is also divisible by 400. This rule helps to keep our calendar year synchronized with the astronomical year.
+
+The leap year calculation can be summarized as follows:
+
+A year is a leap year if it is evenly divisible by 4.
+However, if the year is also evenly divisible by 100, it is not a leap year, unless:
+The year is also evenly divisible by 400, in which case it is a leap year.
+
 
 
 # EXPERIMENT 2
