@@ -4,13 +4,38 @@
 
 EXPERIMENT-1a
 Printing “Hello World”
-
-
+```
+#include<iostream>
+// Varun Pendem PRN: 23070123149
+using namespace std;
+int main()
+{
+      cout<<"Hello World";
+      return 0;
+} 
+```
 Aim:
 1.	Introduction to Output: Uses “using namespace std” to print text to the console, helping beginners understand basic output in C++.
 
 EXPERIMENT 1-b
 Printing Sum and Average of 2 numbers
+```
+#include<iostream>
+// Varun Pendem PRN: 23070123149
+using namespace std;
+int main()
+{
+      int a,b;
+      cout<<"Enter a and b"<<endl;
+      cin>>a;
+      cin>>b;
+      int sum1 = a+b;
+      cout<<"The sum of a and b is "<<sum1;
+      int avg = (a+b)/2;
+      cout<<endl<<"The average of a and b is: "<<avg;
+      return 0;
+}
+```
 
 Theory: 
 
@@ -20,6 +45,25 @@ Sum and Average
 
 EXPERIMENT 1-c
 Finding whether the number is odd or even
+```
+#include<iostream>
+// Varun Pendem PRN: 23070123149
+using namespace std;
+int main()
+{
+      int n;
+      cout<<"Enter n"<<endl;
+      cin>>n;
+
+      if(n%2==0){
+            cout<<endl<<"even";
+      }
+      else{
+            cout<<endl<<"odd";
+      }     
+      return 0;
+}
+```
 
 Theory:
 
