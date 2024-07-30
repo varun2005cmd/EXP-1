@@ -58,6 +58,11 @@ wchar_t
 •	Purpose: Designed to represent characters from larger character sets, including international or Unicode characters.
 •	Size: Typically 2 or 4 bytes (depends on the system and compiler).
 
+Output:
+
+![image](https://github.com/user-attachments/assets/ad9afc64-0531-4dd1-8c8e-59d9d894262b)
+
+
 
 
 # EXPERIMENT-3
