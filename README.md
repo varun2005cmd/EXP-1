@@ -77,6 +77,9 @@ Theory:
 
 •	Initially, variables a, b, c, d, and e are assigned values, and a series of arithmetic operations are performed on them, such as addition (a += 55), increment (a++), division (b /= 10), multiplication (c *= 15), subtraction (d -= 20), modulus (e %= 24), and decrement (e--). The program then uses comparison operations to check and print if a is greater than b and if d equals zero.
 
+Output:
+![image](https://github.com/user-attachments/assets/59f9776c-fb29-45a1-8745-649c4344f975)
+
 
 
 
