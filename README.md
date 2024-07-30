@@ -30,7 +30,7 @@ Even or Odd
 EXPERIMENT 1-d
 Determining leap years
 
-# ///////////////////////////////////
+
 
 # EXPERIMENT 2
 
@@ -58,7 +58,7 @@ wchar_t
 •	Purpose: Designed to represent characters from larger character sets, including international or Unicode characters.
 •	Size: Typically 2 or 4 bytes (depends on the system and compiler).
 
-# ///////////////////////////////////
+
 
 # EXPERIMENT-3
 
@@ -73,7 +73,7 @@ Theory:
 •	Initially, variables a, b, c, d, and e are assigned values, and a series of arithmetic operations are performed on them, such as addition (a += 55), increment (a++), division (b /= 10), multiplication (c *= 15), subtraction (d -= 20), modulus (e %= 24), and decrement (e--). The program then uses comparison operations to check and print if a is greater than b and if d equals zero.
 
 
-# ///////////////////////////////////
+
 
 # EXPERIMENT-4
 
@@ -85,4 +85,3 @@ Theory:
 •	It demonstrates bitwise operations, including AND, OR, NOT, and XOR, and prints the results. The final values of the variables are also printed. This program highlights basic C++ syntax and operations.¬¬¬
 
 
-# ///////////////////////////////////
