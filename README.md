@@ -73,6 +73,24 @@ Even or Odd
 
 EXPERIMENT 1-d
 Determining leap years
+```
+#include<iostream>
+// Varun Pendem PRN: 23070123149
+using namespace std;
+int main()
+{
+      int year;
+      cout<<endl<<"Enter the year";
+      cin>>year;
+      if(year%400==0 and year%100!=0 or year%4==0){
+            cout<<"LEAP year";
+      }
+      else{
+            cout<<"Non leap year";
+      }
+      return 0;
+}
+```
 
 Theory: A leap year is a year that is evenly divisible by 4 but not by 100, unless it is also divisible by 400. This rule helps to keep our calendar year synchronized with the astronomical year.
 
@@ -87,6 +105,46 @@ The year is also evenly divisible by 400, in which case it is a leap year.
 # EXPERIMENT 2
 
 Data types in C++
+```
+
+#include<iostream>
+//Varun Pendem
+// PRN: 23070123149
+using namespace std;
+int main()
+{
+   int a = 10;
+   short int a1 = 15;
+   unsigned short  int a2 = 20;
+   long long int a3;
+   char b = 'B';
+   wchar_t b1;
+   float c = 3.14;
+   double d;
+   long double d1;
+   unsigned long long int d2;
+
+
+  static int s_i;
+  register int r_i = 100;
+  extern float e_f ;
+  
+   cout<<endl<<sizeof(a);
+   cout<<endl<<sizeof(a1);
+   cout<<endl<<sizeof(a2);
+   cout<<endl<<sizeof(a3);
+   cout<<endl<<sizeof(b);
+   cout<<endl<<sizeof(b1);
+   cout<<endl<<sizeof(c);
+   cout<<endl<<sizeof(d);
+   cout<<endl<<sizeof(d1);
+   cout<<endl<<sizeof(d2);
+   cout<<endl<<sizeof(s_i);
+   cout<<endl<<sizeof(r_i);
+   cout<<endl<<sizeof(e_f);
+    return 0;
+}
+```
 
 Aim: To understand and implement the different data types in C++ 
 
@@ -120,6 +178,49 @@ Output:
 # EXPERIMENT-3
 
 Operators in C++
+```
+#include <iostream>
+using namespace std;
+// Varun Pendem
+// PRN: 23070123149
+
+int main()
+
+{   int one = 1; 
+    int a1 = 4;
+    int a = 5;
+    int b = 10;
+    int c = 15;
+    int d = 20;
+    int e = 25;
+
+    //Arithmetic 
+    a+=55;
+    a++;
+    b/=10;
+    c*=15;
+    d-=20;
+    e%=24;
+    e--;
+
+    //comparision 
+    if(a>>b){
+        cout<<"a>b"<<endl;
+    }
+    if(d==0){
+        cout<<"d=e"<<endl;
+    }
+
+    
+
+    cout<<endl<<endl;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
+    cout<<d<<endl;
+    cout<<e<<endl;
+}
+```
 
 Aim: to understand the different operators such as arithmetic, logical , BITWISE etc
 
