@@ -102,9 +102,7 @@ The year is also evenly divisible by 400, in which case it is a leap year.
 
 
 
-# EXPERIMENT 2
-
-Data types in C++
+#EXPERIMENT 2 To study and implement C++ Program Structure (Data types): -
 ```
 
 #include<iostream>
@@ -175,9 +173,7 @@ Output:
 
 
 
-# EXPERIMENT-3
-
-Operators in C++
+#EXPERIMENT 3 To study and implement operators in C++ : -
 ```
 #include <iostream>
 using namespace std;
@@ -237,9 +233,7 @@ Output:
 
 
 
-# EXPERIMENT-4
-
-Bitwise Operators in C++
+#EXPERIMENT 4 To study and implement C++ Bitwise Operators: -
 ```
 #include<iostream>
 using namespace std;
