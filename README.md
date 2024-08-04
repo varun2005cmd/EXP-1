@@ -29,6 +29,8 @@ The installer will copy the necessary files to your system.
 
 Once the installation is complete, you’ll see a final screen with an option to launch Visual Studio Code. Ensure this box is checked and click "Finish".
 
+
+
 EXPERIMENT-1a
 Printing “Hello World”
 ```
@@ -41,6 +43,8 @@ int main()
       return 0;
 } 
 ```
+
+
 Aim:
 1.	Introduction to Output: Uses “using namespace std” to print text to the console, helping beginners understand basic output in C++.
 
