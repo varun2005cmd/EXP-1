@@ -51,6 +51,8 @@ int main()
 Aim:
 1.	Introduction to Output: Uses “using namespace std” to print text to the console, helping beginners understand basic output in C++.
 
+Software: VS Code
+
 # EXPERIMENT 1-b
 # Printing Sum and Average of 2 numbers
 ```
@@ -70,6 +72,7 @@ int main()
       return 0;
 }
 ```
+Software: VS Code
 
 Theory: 
 
@@ -98,6 +101,7 @@ int main()
       return 0;
 }
 ```
+Software: VS Code
 
 Theory:
 
@@ -125,6 +129,7 @@ int main()
       return 0;
 }
 ```
+Software: VS Code
 
 Theory: A leap year is a year that is evenly divisible by 4 but not by 100, unless it is also divisible by 400. This rule helps to keep our calendar year synchronized with the astronomical year.
 
@@ -179,6 +184,8 @@ int main()
 ```
 
 Aim: To understand and implement the different data types in C++ 
+
+Software: VS Code
 
 Theory:
 
@@ -254,6 +261,8 @@ int main()
 
 Aim: to understand the different operators such as arithmetic, logical , BITWISE etc
 
+Software: VS Code
+
 Theory:
 
 •	This C++ program demonstrates fundamental operations on integer variables, including arithmetic, comparison, and bitwise operations.
@@ -295,6 +304,8 @@ int main()
 
 Aim: Implementing the BITWISE operators like AND, NAND, XOR on 2 numbers
 
+Software: VS Code
+
 Theory:
 •	It demonstrates bitwise operations, including AND, OR, NOT, and XOR, and prints the results. The final values of the variables are also printed. This program highlights basic C++ syntax and operations.¬¬¬
 Bitwise operators are used to perform operations on individual bits of integer data types. These operators are fundamental in low-level programming, enabling efficient manipulation of data at the bit level. In C++
@@ -309,6 +320,8 @@ Output:
 Aim
 
 To learn how to implement decision making statements in C++ programming language
+
+Software: VS Code
 
 Theory
 
