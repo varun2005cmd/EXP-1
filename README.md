@@ -3,6 +3,9 @@
 # EXPERIMENT 1 Downloading VS code ,(hello world and calculator program)
 
 1. Download VS Code Installer:
+  
+  
+      ![image](https://github.com/user-attachments/assets/fa7d3519-f388-4fe4-9795-8fc113e4b883)
 
 Open your web browser and go to the official Visual Studio Code website: code.visualstudio.com.
 Click on the "Download for Windows" button. This will download the installer executable (.exe file).
