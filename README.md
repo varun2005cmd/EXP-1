@@ -525,11 +525,7 @@ default: //default_statements break;
     return 0;
       }
 
-![image](https://github.com/user-attachments/assets/8653d7a3-3d6d-437c-b649-d66597a04578)
 
-![image](https://github.com/user-attachments/assets/c8360304-65a1-4eb0-9791-dfed1f2c56a4)
-
-![image](https://github.com/user-attachments/assets/f435b8e1-ad33-4f53-9594-aba43d7c7790)
 
 
 Conclusion:
@@ -537,10 +533,12 @@ This program helps us understand how conditional statements work in C++. These c
 
 # Experiment 6: - To study and implement C++ decision making statements Loops
 
-Aim
+Aim:
+
 To learn how to implement decision making statement loops like for, while and do while in C++
 
-Theory
+Theory:
+
 Decision making loops are useful to execute a block of code repeatedly till a certain number of times ranging from 1 to infinte depening on the condtion or iteraions
 
 In this experiment we learn about 3 decsion making statement loops which are as foolows: -
@@ -684,7 +682,15 @@ Code: -
 
 Output:
 
+![image](https://github.com/user-attachments/assets/8653d7a3-3d6d-437c-b649-d66597a04578)
 
+![image](https://github.com/user-attachments/assets/c8360304-65a1-4eb0-9791-dfed1f2c56a4)
+
+![image](https://github.com/user-attachments/assets/f435b8e1-ad33-4f53-9594-aba43d7c7790)
+
+
+Conclusion
+In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
 
 
 
