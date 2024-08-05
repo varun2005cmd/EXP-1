@@ -175,6 +175,7 @@ wchar_t
 •	Purpose: Designed to represent characters from larger character sets, including international or Unicode characters.
 •	Size: Typically 2 or 4 bytes (depends on the system and compiler).
 
+CODE: 
 ```
 
 #include<iostream>
@@ -222,8 +223,8 @@ Output:
 
 ![image](https://github.com/user-attachments/assets/ad9afc64-0531-4dd1-8c8e-59d9d894262b)
 
-
-
+Conclusion:
+This program demonstrates the use of sizeof operator to help determine the size of various data types in C++. Understanding the sizes of these data types helps us to make better memory management decisions and optimizing our programs.
 
 # EXPERIMENT 3 To study and implement operators in C++ : -
 
@@ -237,6 +238,8 @@ Theory:
 •	This C++ program demonstrates fundamental operations on integer variables, including arithmetic, comparison, and bitwise operations.
 
 •	Initially, variables a, b, c, d, and e are assigned values, and a series of arithmetic operations are performed on them, such as addition (a += 55), increment (a++), division (b /= 10), multiplication (c *= 15), subtraction (d -= 20), modulus (e %= 24), and decrement (e--). The program then uses comparison operations to check and print if a is greater than b and if d equals zero.
+
+CODE:
 ```
 #include <iostream>
 using namespace std;
@@ -286,7 +289,8 @@ Output:
 
 ![image](https://github.com/user-attachments/assets/59f9776c-fb29-45a1-8745-649c4344f975)
 
-
+Conclusion:
+This program provides a overview of how different types of operators are used in C++. Understanding these operators is important for performing various operations and implementing logic in C++ programs. This program serves as a practical guide for beginners to get familiar with operators and their applications in C++.
 
 
 # EXPERIMENT 4 To study and implement C++ Bitwise Operators: -
@@ -299,6 +303,8 @@ Theory:
 •	It demonstrates bitwise operations, including AND, OR, NOT, and XOR, and prints the results. The final values of the variables are also printed. This program highlights basic C++ syntax and operations.¬¬¬
 Bitwise operators are used to perform operations on individual bits of integer data types. These operators are fundamental in low-level programming, enabling efficient manipulation of data at the bit level. In C++
 
+
+CODE:
 ```
 #include<iostream>
 using namespace std;
@@ -329,6 +335,8 @@ Output:
 
 ![image](https://github.com/user-attachments/assets/a97a2db3-4388-4ed4-b599-b5267f518507)
 
+Conclusion:
+This program helps us understand how bitwise operators can be used in C++. These bitwise operations can be used for performance optimization as they pack multiple values in a single variable making the program more memory efficient.
 
 # Experiment 5: -To study and implement C++ decision making statements
 Aim
