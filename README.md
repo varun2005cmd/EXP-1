@@ -55,6 +55,15 @@ Software: VS Code
 
 # EXPERIMENT 1-b
 # Printing Sum and Average of 2 numbers
+
+Software: VS Code
+
+Theory: 
+
+Sum and Average
+1.	Basic Arithmetic Operations: Demonstrates how to perform addition and division to calculate the sum and average of numbers.
+2.	Input and Output Handling: Teaches how to take input from the user using namespace std and display results.
+3.	
 ```
 #include<iostream>
 // Varun Pendem PRN: 23070123149
@@ -72,16 +81,19 @@ int main()
       return 0;
 }
 ```
-Software: VS Code
 
-Theory: 
-
-Sum and Average
-1.	Basic Arithmetic Operations: Demonstrates how to perform addition and division to calculate the sum and average of numbers.
-2.	Input and Output Handling: Teaches how to take input from the user using namespace std and display results.
 
 # EXPERIMENT 1-c
 # Finding whether the number is odd or even
+
+Software: VS Code
+
+Theory:
+
+Even or Odd
+1.	Conditional Statements: Introduces if-else statements to check whether a number is even or odd.
+2.	Modulus Operator: Uses the modulus operator % to determine the remainder when a number is divided by 2, crucial for the even or odd check.
+
 ```
 #include<iostream>
 // Varun Pendem PRN: 23070123149
@@ -101,16 +113,21 @@ int main()
       return 0;
 }
 ```
-Software: VS Code
 
-Theory:
-
-Even or Odd
-1.	Conditional Statements: Introduces if-else statements to check whether a number is even or odd.
-2.	Modulus Operator: Uses the modulus operator % to determine the remainder when a number is divided by 2, crucial for the even or odd check.
 
 # EXPERIMENT 1-d
 # Determining leap years
+
+Software: VS Code
+
+Theory: A leap year is a year that is evenly divisible by 4 but not by 100, unless it is also divisible by 400. This rule helps to keep our calendar year synchronized with the astronomical year.
+
+The leap year calculation can be summarized as follows:
+
+A year is a leap year if it is evenly divisible by 4.
+However, if the year is also evenly divisible by 100, it is not a leap year, unless:
+The year is also evenly divisible by 400, in which case it is a leap year.
+
 ```
 #include<iostream>
 // Varun Pendem PRN: 23070123149
@@ -129,15 +146,6 @@ int main()
       return 0;
 }
 ```
-Software: VS Code
-
-Theory: A leap year is a year that is evenly divisible by 4 but not by 100, unless it is also divisible by 400. This rule helps to keep our calendar year synchronized with the astronomical year.
-
-The leap year calculation can be summarized as follows:
-
-A year is a leap year if it is evenly divisible by 4.
-However, if the year is also evenly divisible by 100, it is not a leap year, unless:
-The year is also evenly divisible by 400, in which case it is a leap year.
 
 
 
