@@ -515,11 +515,13 @@ default: //default_statements break;
 
 # Output: 
 
+![image](https://github.com/user-attachments/assets/8ce7115a-cdcf-4c1e-9cfe-0be7363267c5)
 
 
 
 Conclusion:
 This program helps us understand how conditional statements work in C++. These conditional statements can be used to make decisions in your program, specifically it only runs a block of code if a particular situation occurs.
+
 
 # Experiment 6: - To study and implement C++ decision making statements Loops
 
@@ -574,7 +576,7 @@ do
 
 while(condition)
 
-Code: -
+CODE: -
      
      #include <iostream>
     
