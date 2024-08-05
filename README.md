@@ -641,28 +641,13 @@ Code: -
         }
     }
 
-    //pattern
-
-    for(int i = 0;i<=5;i++)
-    {
-        for(int j = 1;j<= 5-i;j++)
-        {
-            cout<<" ";
-        }
-        for(int k = 1;k<=2*i-1;k++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-
     int q = 0;
 
     while(q<5)
         {
             for(int i = 0;i<5;i++)
                 {
-                    cout<<"Hello World"<<endl; 
+                    cout<<"testing"<<endl; 
                 }
                 q++;
         }
@@ -672,7 +657,7 @@ Code: -
     {
         while(i<5)
         {
-            cout<<"World hello"<<endl;
+            cout<<"gnitset"<<endl;
             i++; //prints world hello 5 times 
         }
     }   
