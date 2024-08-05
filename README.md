@@ -142,6 +142,31 @@ The year is also evenly divisible by 400, in which case it is a leap year.
 
 
 # EXPERIMENT 2 To study and implement C++ Program Structure (Data types): -
+
+Aim: To understand and implement the different data types in C++ 
+
+Software: VS Code
+
+Theory:
+
+Data Types, I/O Operations
+Integer Types
+1.	int: Stores standard whole numbers.
+2.	short int: Stores smaller whole numbers.
+3.	long int: Stores larger whole numbers.
+4.	long long int: Stores very large whole numbers.
+Floating-Point Types
+1.	float: Stores single precision decimal numbers.
+2.	double: Stores double precision decimal numbers.
+3.	long double: Stores extended precision decimal numbers.
+Unsigned Types
+•	unsigned int: Stores non-negative whole numbers with an extended range.
+•	unsigned types can only represent non-negative numbers
+
+wchar_t
+•	Purpose: Designed to represent characters from larger character sets, including international or Unicode characters.
+•	Size: Typically 2 or 4 bytes (depends on the system and compiler).
+
 ```
 
 #include<iostream>
@@ -183,29 +208,7 @@ int main()
 }
 ```
 
-Aim: To understand and implement the different data types in C++ 
 
-Software: VS Code
-
-Theory:
-
-Data Types, I/O Operations
-Integer Types
-1.	int: Stores standard whole numbers.
-2.	short int: Stores smaller whole numbers.
-3.	long int: Stores larger whole numbers.
-4.	long long int: Stores very large whole numbers.
-Floating-Point Types
-1.	float: Stores single precision decimal numbers.
-2.	double: Stores double precision decimal numbers.
-3.	long double: Stores extended precision decimal numbers.
-Unsigned Types
-•	unsigned int: Stores non-negative whole numbers with an extended range.
-•	unsigned types can only represent non-negative numbers
-
-wchar_t
-•	Purpose: Designed to represent characters from larger character sets, including international or Unicode characters.
-•	Size: Typically 2 or 4 bytes (depends on the system and compiler).
 
 Output:
 
@@ -215,6 +218,17 @@ Output:
 
 
 # EXPERIMENT 3 To study and implement operators in C++ : -
+
+
+Aim: to understand the different operators such as arithmetic, logical , BITWISE etc
+
+Software: VS Code
+
+Theory:
+
+•	This C++ program demonstrates fundamental operations on integer variables, including arithmetic, comparison, and bitwise operations.
+
+•	Initially, variables a, b, c, d, and e are assigned values, and a series of arithmetic operations are performed on them, such as addition (a += 55), increment (a++), division (b /= 10), multiplication (c *= 15), subtraction (d -= 20), modulus (e %= 24), and decrement (e--). The program then uses comparison operations to check and print if a is greater than b and if d equals zero.
 ```
 #include <iostream>
 using namespace std;
@@ -257,17 +271,8 @@ int main()
     cout<<d<<endl;
     cout<<e<<endl;
 }
+
 ```
-
-Aim: to understand the different operators such as arithmetic, logical , BITWISE etc
-
-Software: VS Code
-
-Theory:
-
-•	This C++ program demonstrates fundamental operations on integer variables, including arithmetic, comparison, and bitwise operations.
-
-•	Initially, variables a, b, c, d, and e are assigned values, and a series of arithmetic operations are performed on them, such as addition (a += 55), increment (a++), division (b /= 10), multiplication (c *= 15), subtraction (d -= 20), modulus (e %= 24), and decrement (e--). The program then uses comparison operations to check and print if a is greater than b and if d equals zero.
 
 Output:
 
@@ -277,6 +282,15 @@ Output:
 
 
 # EXPERIMENT 4 To study and implement C++ Bitwise Operators: -
+
+Aim: Implementing the BITWISE operators like AND, NAND, XOR on 2 numbers
+
+Software: VS Code
+
+Theory:
+•	It demonstrates bitwise operations, including AND, OR, NOT, and XOR, and prints the results. The final values of the variables are also printed. This program highlights basic C++ syntax and operations.¬¬¬
+Bitwise operators are used to perform operations on individual bits of integer data types. These operators are fundamental in low-level programming, enabling efficient manipulation of data at the bit level. In C++
+
 ```
 #include<iostream>
 using namespace std;
@@ -300,16 +314,8 @@ int main()
     cout<< "the XOR of 4 and 5 is "<<bit_XOR<<endl;
       return 0;
 }
+
 ```
-
-Aim: Implementing the BITWISE operators like AND, NAND, XOR on 2 numbers
-
-Software: VS Code
-
-Theory:
-•	It demonstrates bitwise operations, including AND, OR, NOT, and XOR, and prints the results. The final values of the variables are also printed. This program highlights basic C++ syntax and operations.¬¬¬
-Bitwise operators are used to perform operations on individual bits of integer data types. These operators are fundamental in low-level programming, enabling efficient manipulation of data at the bit level. In C++
-
 
 Output:
 
