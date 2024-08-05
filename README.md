@@ -36,6 +36,14 @@ Once the installation is complete, you’ll see a final screen with an option to
 
 # EXPERIMENT-1a
 # Printing “Hello World”
+
+Aim:
+1.	Introduction to Output: Uses “using namespace std” to print text to the console, helping beginners understand basic output in C++.
+
+Software: VS Code
+
+
+CODE:
 ```
 #include<iostream>
 // Varun Pendem PRN: 23070123149
@@ -48,10 +56,6 @@ int main()
 ```
 
 
-Aim:
-1.	Introduction to Output: Uses “using namespace std” to print text to the console, helping beginners understand basic output in C++.
-
-Software: VS Code
 
 # EXPERIMENT 1-b
 # Printing Sum and Average of 2 numbers
@@ -63,7 +67,8 @@ Theory:
 Sum and Average
 1.	Basic Arithmetic Operations: Demonstrates how to perform addition and division to calculate the sum and average of numbers.
 2.	Input and Output Handling: Teaches how to take input from the user using namespace std and display results.
-3.	
+
+CODE:
 ```
 #include<iostream>
 // Varun Pendem PRN: 23070123149
@@ -93,7 +98,8 @@ Theory:
 Even or Odd
 1.	Conditional Statements: Introduces if-else statements to check whether a number is even or odd.
 2.	Modulus Operator: Uses the modulus operator % to determine the remainder when a number is divided by 2, crucial for the even or odd check.
-
+	
+CODE:
 ```
 #include<iostream>
 // Varun Pendem PRN: 23070123149
@@ -128,6 +134,7 @@ A year is a leap year if it is evenly divisible by 4.
 However, if the year is also evenly divisible by 100, it is not a leap year, unless:
 The year is also evenly divisible by 400, in which case it is a leap year.
 
+CODE:
 ```
 #include<iostream>
 // Varun Pendem PRN: 23070123149
