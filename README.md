@@ -302,4 +302,85 @@ Output:
 ![image](https://github.com/user-attachments/assets/a97a2db3-4388-4ed4-b599-b5267f518507)
 
 
+# Experiment 5: -To study and implement C++ decision making statements
+Aim
+
+To learn how to implement decision making statements in C++ programming language
+
+Theory
+
+Decision-making in C++ helps to write decision-driven statements and execute a particular set of code based on certain conditions.
+
+C++ has different types of decision making statements like
+
+if
+else if
+else
+switch
+default
+if statement
+
+if statement is the most simple decision-making statement. It is used to decide whether a certain statement or block of statements will be executed or not executed based on a certain type of condition.
+
+Syntax: -
+
+if(condition)
+
+{
+
+// will execute the code here depending on if the condition is satisfied
+
+}
+
+else if statement
+
+An if-else statement controls conditional branching. Statements in the if-branch are executed only if the condition evaluates to a nonzero value (or true ). If the value of condition is nonzero, the following statement gets executed, and the statement following the optional else gets skipped.
+
+Syntax: -
+
+if(condition_a)
+
+{
+
+// will execute the code depending whether the condtion_a is satisfied
+
+}
+
+else if(condition_b)
+
+{
+
+// will excecute the code depending whether the condtion-a is not satisfied and condition_b is satsified
+
+}
+
+else
+
+{
+
+// will execute the code if both t e condtions are not satisfied
+
+}
+
+switch and default statements
+
+Switch case is basically an optimised version of multiple else if statements with a difference of approximately 10^-3% faster speed meaning that it does not really matter if a person is using else if or switch and if micro management is required then try using looup or hash table in the codes.
+
+Switch case has better readabilty, can be typed faster, easier to debug and harder to make mistakes compared to multiple else if statements.
+
+default statements are like elese staement where in if the all cases are false then the block of the code will be executed.
+
+syntax:-
+
+switch (expression)
+
+{
+
+case value_1; // statement 1 break;
+
+case value_2: //statement 2 break;
+
+default: //default_statements break;
+
+}
 
