@@ -557,18 +557,18 @@ default: //default_statements break;
         {
             for(int i = 0;i<5;i++)
                 {
-                    cout<<"Hello World"<<endl; 
+                    cout<<"testing"<<endl; 
                 }
                 q++;
         }
-        // this will produce 25 hello world commands 5*5
+       
 
     for(int i =0;i<10;i++)
     {
         while(i<5)
         {
-            cout<<"World hello"<<endl;
-            i++; //prints world hello 5 times 
+            cout<<"gnitset"<<endl;
+            i++; 
         }
     }    
     return 0;
