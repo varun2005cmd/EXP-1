@@ -532,6 +532,11 @@ default: //default_statements break;
 ![image](https://github.com/user-attachments/assets/f435b8e1-ad33-4f53-9594-aba43d7c7790)
 
 
+Conclusion:
+This program helps us understand how conditional statements work in C++. These conditional statements can be used to make decisions in your program, specifically it only runs a block of code if a particular situation occurs.
+
+
+
 
 
 
