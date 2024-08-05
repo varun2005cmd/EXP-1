@@ -345,14 +345,14 @@ Output:
 Conclusion:
 This program helps us understand how bitwise operators can be used in C++. These bitwise operations can be used for performance optimization as they pack multiple values in a single variable making the program more memory efficient.
 
-# Experiment 5: -To study and implement C++ decision making statements
-Aim
 
-To learn how to implement decision making statements in C++ programming language
+# Experiment 5: -To study and implement C++ decision making statements
+
+Aim: To learn how to implement decision making statements in C++ programming language
 
 Software: VS Code
 
-Theory
+Theory:
 
 Decision-making in C++ helps to write decision-driven statements and execute a particular set of code based on certain conditions.
 
@@ -430,100 +430,90 @@ default: //default_statements break;
 }
 
 
+ CODE:
  
     #include <iostream>
     using namespace std;
 
-    int main() {
-    int s[100][100];
-    for (int i = 0; i < 100; ++i) {
-        for (int j = 0; j < 100; ++j) {
-            s[i][j] = i * 100 + j;
-        }
-    }
-
-    for (int i = 0; i <= 10; i++) {
-        cout << i << endl;
-    }
-
-
-    int x = 0;
-    cout << "While loop" << endl;
-    while (x < 10) {
-        cout << x << endl;
-        x++;
-    }
-
-    int y = 0;
-    cout << "Do-while loop" << endl;
-    do {
-        y++;
-        cout << y << endl;
-    } while (y < 4);
-
-
-    int a = 0, b = 0;
-    cout << "Nested for loop" << endl;
-    for (int i = 0; i < 4; i++) {
-        a++;
-        for (int j = 0; j < 4; j++) {
-            b++;
-            cout << s[a][b] << " ";
-        }
-        cout << endl;
-    }
-
-    int k=0,l=0;
-    while(k<5)
+    int main()
     {
-        while(l<5)
-        {
-            k++;
-            l++;
-            cout<<k<<endl;
-            cout<<l<<endl;
-        }
+    int a,b,c;
+    cout<<"Enter 3 variables: "<<endl;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    if(a>b && a>c)
+    {
+        cout<<"a is the largest number: "<<endl;
+    }
+    else if(b>a && b>c)
+    {
+        cout<<"b is the largest number: "<<endl;
+    }
+    else if(c>a && c>b)
+    {
+        cout <<"c is the largest number: "<<endl;
+    }
+    int month;
+    cout<<"Enter a number between 1 to 12"<< endl;
+    cin>>month;
+    switch (month)
+    {
+    case 1:
+    cout<<"Jan"<<endl;
+    break;
+
+    case 2:
+    cout<<"February"<<endl;
+    break;
+
+    case 3:
+    cout<<"march"<<endl;
+    break;
+    
+    case 4:
+    cout<<"April"<<endl;
+    break;
+    
+    case 5:
+    cout<<"May"<<endl;
+    break;
+
+    case 6:
+    cout<<"June"<<endl;
+    break;
+
+    case 7:
+    cout<<"July"<<endl;
+    break;
+
+    case 8:
+    cout<<"August"<<endl;
+    break;
+    
+    case 9:
+    cout<<"September"<<endl;
+    break;
+
+    case 10:
+    cout<<"October"<<endl;
+    break;
+
+    case 11:
+    cout<<"November"<<endl;
+    break;
+
+    case 12:
+    cout<<"December"<<endl;
+    break;
+
+    default:
+    cout<<"Invalid input"<<endl;
+
+    }
     }
 
-    //pattern
-
-    for(int i = 0;i<=5;i++)
-    {
-        for(int j = 1;j<= 5-i;j++)
-        {
-            cout<<" ";
-        }
-        for(int k = 1;k<=2*i-1;k++)
-        {
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-
-        // for inside while
-
-    int q = 0;
-
-    while(q<5)
-        {
-            for(int i = 0;i<5;i++)
-                {
-                    cout<<"testing"<<endl; 
-                }
-                q++;
-        }
-       
-
-    for(int i =0;i<10;i++)
-    {
-        while(i<5)
-        {
-            cout<<"gnitset"<<endl;
-            i++; 
-        }
-    }    
-    return 0;
-      }
+# Output: 
 
 
 
