@@ -346,13 +346,13 @@ Conclusion:
 This program helps us understand how bitwise operators can be used in C++. These bitwise operations can be used for performance optimization as they pack multiple values in a single variable making the program more memory efficient.
 
 
-# Experiment 5: -To study and implement C++ decision making statements
+## Experiment 5: -To study and implement C++ decision making statements
 
-Aim: To learn how to implement decision making statements in C++ programming language
+# Aim: To learn how to implement decision making statements in C++ programming language
 
 Software: VS Code
 
-Theory:
+# Theory:
 
 Decision-making in C++ helps to write decision-driven statements and execute a particular set of code based on certain conditions.
 
@@ -430,7 +430,7 @@ default: //default_statements break;
 }
 
 
- CODE:
+ # CODE:
  
     #include <iostream>
     using namespace std;
@@ -519,17 +519,20 @@ default: //default_statements break;
 
 
 
-Conclusion:
+# Conclusion:
 This program helps us understand how conditional statements work in C++. These conditional statements can be used to make decisions in your program, specifically it only runs a block of code if a particular situation occurs.
 
 
-# Experiment 6: - To study and implement C++ decision making statements Loops
+## Experiment 6: - To study and implement C++ decision making statements Loops
 
-Aim:
+# Aim:
 
 To learn how to implement decision making statement loops like for, while and do while in C++
 
-Theory:
+Software:
+VS Code
+
+# Theory:
 
 Decision making loops are useful to execute a block of code repeatedly till a certain number of times ranging from 1 to infinte depening on the condtion or iteraions
 
@@ -576,7 +579,7 @@ do
 
 while(condition)
 
-CODE: -
+# CODE: -
      
      #include <iostream>
     
@@ -657,7 +660,7 @@ CODE: -
     return 0;
     }
 
-Output:
+# Output:
 
 ![image](https://github.com/user-attachments/assets/8653d7a3-3d6d-437c-b649-d66597a04578)
 
@@ -666,7 +669,7 @@ Output:
 ![image](https://github.com/user-attachments/assets/f435b8e1-ad33-4f53-9594-aba43d7c7790)
 
 
-Conclusion:
+# Conclusion:
 
 In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
 
