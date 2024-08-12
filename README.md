@@ -710,10 +710,10 @@ If an array is of the integer datatype, then: -
 2. Multi dimensional arrays
 
 
-## CODE:
+# CODE:
 
 
-## CODE OUTPUT:
+# CODE OUTPUT:
 
 
 
@@ -751,9 +751,9 @@ In most programming languages, strings are treated as a distinct data type. This
 4. Appending and Concatenating Strings	
 5. comparing 2 strings
 
-##CODE: 
+# CODE: 
 
-##CODE OUTPUT:
+# CODE OUTPUT:
 
 Conclusion:
 
