@@ -666,11 +666,98 @@ Output:
 ![image](https://github.com/user-attachments/assets/f435b8e1-ad33-4f53-9594-aba43d7c7790)
 
 
-Conclusion
+Conclusion:
+
 In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
 
 
 
+
+# EXPERIMENT 7-A ARRAYS
+
+ AIM:
+
+To study and implement C++ Arrays 
+
+SOFTWARE USED: VS Code
+
+
+THEORY:
+
+In computer science, an array is a data structure consisting of a collection of elements (values or variables), of same memory size, each identified by at least one array index or key.
+Arrays have continous memory allocation
+In C++ language, the array has a fixed size meaning once the size is given to it, it cannot be changed i.e. you can’t shrink it nor can you expand it. The reason was that for expanding if we change the size we can’t be sure ) that we get the next memory location to us for free. The shrinking will not work because the array, when declared, gets memory statically allocated, and thus compiler is the only one that can destroy it. 
+For example: -
+If an array is of the integer datatype, then: -
+1. The array will contain only integer datatype values and variables
+2. If the first element memory address is allocated at 1000 then the 2nd element will have the memory address as 1004
+3. The array indexing will start at 0, so if u want ot access the first element of lets say array arr, it will have to be called at either the value of arr[0] or via reference(address of the first element)
+
+ Applications of Array Data Structure: -
+1. To represent data in matrix form, a vector or a tabular form
+2. To store data for processing
+3. Implementing data structures such as queues and stacks as well dynamic memeory allocation like linked lists and trees
+
+
+ Array Operations: -
+1. __Traversal__ : Visiting each element of an array in a specific order (e.g., sequential, reverse).
+2. __Insertion__ : Adding a new element to an array at a specific index.
+3. __Deletion__ : Removing an element from an array at a specific index.
+4. __Searching__ : Finding the index of an element in an array.
+
+ Types of arrays: -
+1. One dimensional arrays
+2. Multi dimensional arrays
+
+
+## CODE:
+
+
+## CODE OUTPUT:
+
+
+
+Conclusion:
+
+We learnt how to implement arrays and its operations in C++ programming languages
+
+
+
+# EXPERIMENT 7-B STRINGS 
+
+ AIM:
+
+To study and implement C++ strings
+
+SOFTWARE USED: VS Code
+
+ THEORY
+
+A string is a datatype having a sequence of characters used to represent text. Strings are commonly used for storing and manipulating textual data in computer programs. They can be manipulated using various operations like concatenation, substring extraction, and comparison.
+
+In most programming languages, strings are treated as a distinct data type. This means that strings have their own set of operations and properties. They can be declared and manipulated using specific string-related functions and methods.
+
+ Application of strings
+
+1. Hashing and encryption of data: - Random strings are generated to secure data or encrypt data
+2. Data representation
+3. Database operation
+4. Web developmenent
+
+ Operations of strings: -
+1. Find the length of a string 
+2. Accessing Characters	from a string using its indexing value
+3. Concating or merging of 2 strings 
+4. Appending and Concatenating Strings	
+5. comparing 2 strings
+
+##CODE: 
+
+##CODE OUTPUT:
+
+Conclusion:
+
+In this experiment we learnt how to implement string and its operations like sorting, searching, etc.
 
 
 
